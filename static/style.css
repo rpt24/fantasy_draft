@@ -1,0 +1,117 @@
+body {
+    background-color: #121d26;
+    color: #e0f2f1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+h2 {
+    color: #4dd0e1;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+table {
+    background-color: #1c2b36;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 8px rgba(77, 208, 225, 0.1);
+}
+
+th, td {
+    border: none;
+    padding: 12px 18px;
+    text-align: center;
+    font-size: 16px;
+}
+
+thead {
+    background-color: #263238;
+    color: #80deea;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #1e2f3a;
+}
+
+tbody tr:hover {
+    background-color: #2c3e50;
+    transition: background-color 0.3s;
+}
+
+input[type=\"text\"], input[type=\"password\"] {
+    background-color: #1c2b36;
+    color: #e0f2f1;
+    border: 2px solid #4dd0e1;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    border: none;
+    padding: 10px 16px;
+    margin-right: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+button.btn-primary {
+    background-color: #26c6da;
+}
+
+button.btn-primary:hover {
+    background-color: #00acc1;
+}
+
+button.btn-success {
+    background-color: #66bb6a;
+}
+
+button.btn-success:hover {
+    background-color: #43a047;
+}
+
+button.btn-danger {
+    background-color: #ef5350;
+}
+
+button.btn-danger:hover {
+    background-color: #e53935;
+}
+
+button.btn-warning {
+    background-color: #ffa726;
+    color: #263238;
+}
+
+button.btn-warning:hover {
+    background-color: #fb8c00;
+}
+
+.alert-danger {
+    background-color: #c62828;
+    color: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Bubbly hover effect */
+button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
